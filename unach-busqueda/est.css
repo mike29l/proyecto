@@ -1,0 +1,134 @@
+body{
+    background: #a39ca5;
+
+}
+.t{
+    color: black;
+}
+.pp{
+    color: white;
+    margin-left: 5%;
+}
+
+.b{
+    border-radius: 45px;
+    background: #a39ca5;
+    box-shadow:  27px 27px 54px #555156,
+                 -27px -27px 54px #f1e7f4;
+        padding: 14px 28px; 
+        cursor: pointer; 
+        border: #555156;
+        margin-left: 25%;
+    
+}
+.r{
+    border-radius: 45px;
+    background: #a39ca5;
+    box-shadow:  27px 27px 54px #555156,
+                 -27px -27px 54px #f1e7f4;
+        padding: 14px 28px; 
+        cursor: pointer; 
+        border: #555156;
+        margin-left: 5%;
+        color: black;
+
+    
+}
+.f{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    position: absolute;
+    padding-left: 35%;
+    padding-top: 5px;
+    font-size: 200%;
+    font-family: monospace;
+}
+.p{
+    
+    padding-left: 20px;
+}
+
+.contenedor {
+    
+    border-radius: 75px;
+    background: linear-gradient(145deg, #938c95, #aea7b1);
+    box-shadow:  15px 15px 30px #777278,
+                 -15px -15px 30px #cfc6d2;
+    margin-top: 40px;
+    padding-bottom: 50px;
+    margin-right: 35%;
+    margin-left: 30%;
+}
+.text{
+    margin-left: 30%;
+    margin-top: 10px;
+}
+
+
+
+
+
+@media screen and (max-width:800px ) {
+    
+    .contenedor {
+        border-radius: 39px;
+        background: linear-gradient(145deg, #938c95, #aea7b1);
+        box-shadow:  49px 49px 100px #7c777d,
+                -49px -49px 100px #cac1cd;
+        margin-top: 40px;
+        padding-bottom: 50px;
+        margin-left: 2px;
+        margin-right: 20px;
+    }
+    .text{
+        margin-left: 100px;
+        position: relative;
+        padding-top: 10px;
+        background-color: #e1e1d5;
+        border-radius: 40px;
+    }
+    .text::placeholder {
+        padding-left: 35px;
+        color: black;
+    }
+    
+    .f{
+        position: relative;
+        padding-left: 5px;
+    }
+    .pp{
+        position: relative;
+        padding-left: 20px;
+        font-size: 15px;
+    }
+    .r{
+        border-radius: 37px;
+        background: linear-gradient(45deg, #aea7b1, #938c95);
+        box-shadow:  48px -48px 96px #4d494e,
+                     -48px 48px 96px #7a6c7e;
+        padding: 14px 28px; 
+        cursor: pointer; 
+        border: #555156;
+        margin-left: 20%;
+        color: black;
+    }
+    .b{
+        border-radius: 37px;
+background: linear-gradient(45deg, #aea7b1, #938c95);
+box-shadow:  48px -48px 96px #4d494e,
+             -48px 48px 96px #7a6c7e;
+            padding: 14px 28px; 
+            cursor: pointer; 
+            border: #555156;
+            margin-left: 35%;
+    }
+    .img{  
+        margin-left: 120px;
+    }
+
+    .p{
+        margin-left: 5px;
+    }
+    
+    
+}
